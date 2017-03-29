@@ -1,0 +1,28 @@
+.fill-screen{
+	height:100vh;
+	width:100%;
+	float:left;
+}
+.developmentmode {
+  background: #8e8e8e none repeat scroll 0 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  height: 140px;
+  left: calc(50% - 100px);
+  padding: 20px;
+  position: fixed;
+  width: 200px;
+  top: 100vh;
+}
+.developmentmode.hide{
+	top: 100vh;
+}
+.developmentmode.show {
+  top: calc(100vh - 140px);
+}
+body {
+  margin: 0;
+  width: 100%;
+  float: left;
+  background: #efefef;
+}

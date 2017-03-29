@@ -1,7 +1,3 @@
-<div class="developmentmode">
-	<div class="close-pop-up close-notice-box">x</div>
-	<h5>This College is funded by:</h5>
-</div>
 <?php 
 if(!isset($_SESSION['logos'])){?>
 	<script type="text/javascript">	
@@ -24,8 +20,6 @@ if(!isset($_SESSION['logos'])){?>
 			jQuery(".developmentmode").removeClass('show');
 			jQuery(".developmentmode").addClass('hide');
 		});
-		
-
 	</script>  
 <?php 
 $_SESSION['logos'] = "popup";
